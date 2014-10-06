@@ -51,37 +51,6 @@ Directory structure:
 ```
 
 
-
-
-## Server Directory Structure (DEV)
-
-Directory structure:
-```
-├── apexd_media
-│   ├── ecs-apex-template-master
-│   │   ├── _apps ** the folder that goes in here is the "app" folder that you generate in Jekyll
-│   │   ├── app205-push-notifications
-│   │   │   ├── css
-│   │   ├── _assets ** static-assets that never change
-│   │   │   ├── ico
-│   │   │   ├── images
-│   │   │   ├── js
-│   │   │   ├── ie ** IE files ** NEVER GIT RID OF THESE VERSIONS!
-│   │   │   ├── vendor ** Vendor files ** NEVER GIT RID OF THESE VERSIONS!
-│   │   ├── _base
-│   │   │   ├── ecs-mobile-only ** this is for our Mobile-Only APEX Template
-│   │   │   ├── ecs-template ** this is for our APEX Template
-│   │   │   │   ├── v0.4.1 ** this is the dist folder from the framework (everything)
-│   │   │   │   │   ├── css
-│   │   │   │   │   ├── fonts
-│   │   │   │   │   ├── images
-│   │   │   │   │   ├── js
-
-
-
-```
-
-
 ## Documentation
 
  
