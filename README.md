@@ -29,11 +29,23 @@ This is a repo that follows that tutorial for Ionic Framework.  The tutorial can
 			-  
 
 
- 
+## Site map
 
+Our sample app site map
 
+```
+├──Leagues 
+│   ├──Teams
+│   │   ├──Team detail
+│   │   │   ├──Game
+│   ├──Standings
+│   ├──Locations
+│   │   ├──Location schedule
+│   │   ├──Location map
+│   ├──Rules
+├── My Teams 
 
-
+```
 
 ## Local Directory Structure
 
