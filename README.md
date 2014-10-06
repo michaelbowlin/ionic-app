@@ -82,6 +82,7 @@ Editor preferences are available in the [editor config](https://github.com/....e
 	- Mapping
 	- Customizing Ionic
 	- ngCordova  
+
 2.  Getting started
 	- Command line features (switches)
 		- start (new ionic project)
@@ -94,16 +95,25 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Install:
 			- install node
 			- in terminal
-				-sudo npm install iconic -g
-				-sudo npm install cordova -g
+				- sudo npm install iconic -g
+				- sudo npm install cordova -g
 	
 	- Starting a new project
 		- will us: ionic start [appName][template]
 		- in terminal:
 			- iconic start firstIonicApp blank
-				-(blank is the starter template)
-				
+				- (blank is the starter template)
+
 	- Run your app
+		- there are 3 ways to test your app
+			- 1) Local browser
+				- in terminal
+					- ls -la
+					- cd firstIonicApp
+					- ionic serve
+						- Check it out in Chrome with the emulator tools
+			- 2) Emulator
+			- 3) Device
 	- Ionic starter template
 	- Setting up your development enviornment
 
