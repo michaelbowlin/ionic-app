@@ -119,9 +119,9 @@ Editor preferences are available in the [editor config](https://github.com/....e
 				- ionic platform add android
 				- ionic build android
 				- * Problems? go to ionic instalation website: https://www.youtube.com/watch?v=WpeWcApE9q0
-			- 3) Device
-				- ionic run android (which projects on you phone)
-				- 
+			- 3) Device 
+				- ionic run android 
+		
 	- Ionic starter template
 		- 4 Templates:
 			- Blank
@@ -136,10 +136,14 @@ Editor preferences are available in the [editor config](https://github.com/....e
 				- cd EliteScheduleApp
 				- ionic serve
 	- Setting up your development enviornment
-		- Drag EliteScheduleApp into Sublime
-		- 
+		- drag EliteScheduleApp into Sublime
+		- Lots of cool inspiration on CodePen.io
 
-3.  	 
+3. Navigation and Routing
+	- Headers and Footer
+	- Tabs
+	- Side Menu
+	- Angular UI Routing	 
 4.
 7. 
 	-  
