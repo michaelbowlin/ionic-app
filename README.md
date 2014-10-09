@@ -113,9 +113,31 @@ Editor preferences are available in the [editor config](https://github.com/....e
 					- ionic serve
 						- Check it out in Chrome with the emulator tools
 			- 2) Emulator
+				- first install the Android SDK
+					- http://developer.android.com/sdk/index.html
+					- TUT: https://www.youtube.com/watch?v=WpeWcApE9q0
+				- ionic platform add android
+				- ionic build android
+				- * Problems? go to ionic instalation website: https://www.youtube.com/watch?v=WpeWcApE9q0
 			- 3) Device
+				- ionic run android (which projects on you phone)
+				- 
 	- Ionic starter template
+		- 4 Templates:
+			- Blank
+			- Tabs
+			- Side Menu
+			- Maps
+		- in console:
+			- ionic start ionicTabsApp tabs
+				- cd ionicTabsApp
+				- ionic serve (which opens your browser)
+			- ionic start EliteScheduleApp sidemenu
+				- cd EliteScheduleApp
+				- ionic serve
 	- Setting up your development enviornment
+		- Drag EliteScheduleApp into Sublime
+		- 
 
 3.  	 
 4.
