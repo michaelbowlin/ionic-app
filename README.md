@@ -140,10 +140,17 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Lots of cool inspiration on CodePen.io
 
 3. Navigation and Routing
-	- Headers and Footer
-	- Tabs
-	- Side Menu
-	- Angular UI Routing	 
+	- Overview
+		- Headers and Footer
+		- Tabs
+		- Side Menu
+		- Angular UI Routing
+	- In CodePen we added a header and footer
+		- http://codepen.io/5daily/pen/ungkB?editors=101	
+
+
+
+
 4.
 7. 
 	-  
