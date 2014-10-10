@@ -164,6 +164,26 @@ Editor preferences are available in the [editor config](https://github.com/....e
 				- put in starter code (can be seen in the page itself)
 				- next create a route in the app.js (can be seen in the page itself)
 					- in the app.js file also change the default (.otherwise) to app
+	- Angular UI Routing
+		- Routing framework for AngularJS
+		- Organize into State Machines
+			- instead of dealing with views directly it puts your code into state machines
+		- Allows for nested views
+		- 3 ways to activate a state
+			- ui-sref
+			- url
+			- $state.go()
+		- The angular UI Routing characteristics are:
+			- Unique Name
+			- URL (supports parameters)
+			- Template/TemplateUrl
+				- typically use a template url which does need to point to a physical resource (typically an html partial)
+				- Controllers (optional)
+					- example of state:
+						$stateProvider.state("contacts",{
+						url: "/contacts",
+						templateUrl: "contacts.html"
+					})
 
 4.
 7. 
