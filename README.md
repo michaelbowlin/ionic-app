@@ -146,7 +146,19 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Side Menu
 		- Angular UI Routing
 	- In CodePen we added a header and footer
-		- http://codepen.io/5daily/pen/ungkB?editors=101	
+		- http://codepen.io/5daily/pen/ungkB?editors=101
+	- In CodePen we're adding a tab interface
+	- Open the EliteScheduleApp in Sublime Text
+		- in the WWW folder 
+			- add another folder called APP (this is where everything will be kept)
+			- add a file in the app folder called app.js
+			- then in the index.html
+				- change the js src to app/app.js	
+			- enter the code that can be found in the file
+			- in app folder:
+				- create a home folder
+				- inside the home folder create page home.html
+			- ***** Left off here (not working)
 
 
 
