@@ -180,10 +180,10 @@ Editor preferences are available in the [editor config](https://github.com/....e
 				- typically use a template url which does need to point to a physical resource (typically an html partial)
 				- Controllers (optional)
 					- example of state:
-						$stateProvider.state("contacts",{
-						url: "/contacts",
-						templateUrl: "contacts.html"
-					})
+						- $stateProvider.state("contacts",{
+							- url: "/contacts",
+							- templateUrl: "contacts.html"
+						- })
 
 4.
 7. 
