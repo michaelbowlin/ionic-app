@@ -1,13 +1,18 @@
-<ion-nav-bar class="bar-balanced">
+<!-- <ion-nav-bar class="bar-balanced">
     <h1 class="title">Elite Schedule</h1>
-</ion-nav-bar>
-
-<ion-tabs class="tabs-energized tabs-icon-top">
-    <ion-tab title="Leagues" icon="ion-home" href="#/home/leagues">
-        <ion-nav-view name="tab-leagues"></ion-nav-view>
-    </ion-tab>
-
-    <ion-tab title="My Teams" icon="ion-star" ui-sref="home.myteams">
-        <ion-nav-view name="tab-myteams"></ion-nav-view>
-    </ion-tab>
-</ion-tabs>
+</ion-nav-bar> -->
+      <div class="bar bar-header bar-positive">
+        <h1 class="title">{{myTitle}}</h1>
+      </div>
+      
+      <ion-tabs class="tabs-energized tabs-icon-top">
+        <ion-tab title="Leauges" icon="ion-home" href="#">
+        	<ion-nav-view name="tab-leagues"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="Teams" icon="ion-star"  href="#">
+          
+        </ion-tab>
+        <ion-tab title="Settings" icon="ion-gear-a"  href="#">
+        	<ion-nav-view name="tab-myteams"></ion-nav-view>
+        </ion-tab>
+      </ion-tabs>

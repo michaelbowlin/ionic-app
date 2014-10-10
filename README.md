@@ -151,17 +151,19 @@ Editor preferences are available in the [editor config](https://github.com/....e
 	- Open the EliteScheduleApp in Sublime Text
 		- in the WWW folder 
 			- add another folder called APP (this is where everything will be kept)
-			- add a file in the app folder called app.js
-			- then in the index.html
+				- add a file in the app folder called app.js
+				- then in the index.html
 				- change the js src to app/app.js	
-			- enter the code that can be found in the file
-			- in app folder:
+				- enter the code that can be found in the file
+				- in app folder:
 				- create a home folder
 				- inside the home folder create page home.html
-			- ***** Left off here (not working)
-
-
-
+					- check home.html to see code
+			- Adding side menu
+				- in the App folder create layout folder with menu-layout.html
+				- put in starter code (can be seen in the page itself)
+				- next create a route in the app.js (can be seen in the page itself)
+					- in the app.js file also change the default (.otherwise) to app
 
 4.
 7. 
