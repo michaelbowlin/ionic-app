@@ -1,24 +1,25 @@
 <ion-side-menus>
-	<!-- header bar -->
-	<ion-pane ion-side-menu-content>
-		<ion-nav-bar class="bar-balanced">
-			<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
-		</ion-nav-bar>
-		<ion-view></ion-view>
-	</ion-pane>
 
-	<!-- menu content -->
-	<ion-side-menu side="left">
-		<header class="bar bar-header">
-			<h1 class="title">Elite Schedule</h1>
-		</header>
-		<ion-content class="has-header">
-		<ion-list>
-			<ion-item nav-clear menu-close>Home</ion-item>
-			<ion-item nav-clear menu-close>Teams</ion-item>
-			<ion-item nav-clear menu-close>Standings</ion-item>
-			<ion-item nav-clear menu-close>Locations</ion-item>
-			<ion-item nav-clear menu-close>Rules</ion-item>
-		</ion-list>
-	</ion-side-menu>
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-balanced">
+      <ion-nav-back-button class="button-clear icon ion-ios7-arrow-back"></ion-nav-back-button>
+      <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-bar>
+    <ion-nav-view name="mainContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-balanced">
+      <h1 class="title">Arrow Schedule</h1>
+    </header>
+    <ion-content class="has-header">
+      <ion-list>
+        <ion-item nav-clear menu-close ui-sref="home.leagues">Home</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.teams">Teams</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.standings">Standings</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.locations">Locations</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.rules">Rules</ion-item>
+      </ion-list>
+  </ion-side-menu>
+
 </ion-side-menus>
