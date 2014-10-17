@@ -184,8 +184,31 @@ Editor preferences are available in the [editor config](https://github.com/....e
 							- url: "/contacts",
 							- templateUrl: "contacts.html"
 						- })
+4. IMPORTANT - Skipped taking notes for the remainder of 'Navigation and Routing'. Will come back to document the steps later
 
-4.
+5. Ionic Components
+	- Overview
+		- Lists
+			- Group data with list-dividers
+			- Customize list data
+		- Grid (system for alignment)
+		- Cards (displaying info in your app)
+		- Toggles and Buttons
+		- Ionic Popup
+	- Working with static data
+		- Go to the Elite Schedule App and grab the data: http://elite-schedule.net/api/leaguedata/2009
+		- Download Postman: https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop
+		- Copy the url: http://elite-schedule.net/api/leaguedata/2009 and paste it in your postman app
+		- creat an Angular service for this
+		- Make a folder called "services" in the "app" folder.
+		- Inside the "services" folder add a file called "eliteApi.js" (which is a regular angular service.. see the code in eliteApi.js)
+		-
+
+
+
+
+
+
 7. 
 	-  
 		-  
