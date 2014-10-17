@@ -199,17 +199,19 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Go to the Elite Schedule App and grab the data: http://elite-schedule.net/api/leaguedata/2009
 		- Download Postman: https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop
 		- Copy the url: http://elite-schedule.net/api/leaguedata/2009 and paste it in your postman app
-		- creat an Angular service for this
+	- creat an Angular service for this
 		- Make a folder called "services" in the "app" folder.
 		- Inside the "services" folder add a file called "eliteApi.js" (which is a regular angular service.. see the code in eliteApi.js)
-		-
+			- We are creating an Angular service and using the revealing module pattern  to reveal our two functions.
+		- make sure you add it to the index.html
+	- In leagues.html and add the LeaguesCtrl
+		- (see code)
+	- In the "home" folder create leagues-ctrl.js
+		- First create LeaguesCtrl (see code)
+		- Then inject our Angular service
+			- then to prove that it's working we'll
+				- Create two variables and then console.log(leagues, leagueData)
 
 
 
-
-
-
-7. 
-	-  
-		-  
-			-  
+ 
