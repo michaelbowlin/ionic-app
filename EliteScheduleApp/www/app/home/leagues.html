@@ -1,5 +1,11 @@
-<ion-view ng-controller="LeaguesCtrl">
+<!-- using the controller as syntax -->
+<ion-view ng-controller="LeaguesCtrl as vm">
 	<ion-content class="has-header">
-		<h1>Arrow Leagues</h1>
+		<div class="list">
+			<a class="item" ng-repeat="league in vm.leagues">
+				<!-- Data bind to the league name -->
+				{{league.name}}
+			</a>
+		</div>
 	</ion-content>
 </ion-view>

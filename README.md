@@ -72,7 +72,7 @@ Please read through our [contributing guidelines](https://github.com/...CONTRIBU
 Editor preferences are available in the [editor config](https://github.com/....editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 
-## Detailed IonicApp instructions
+## IonicApp instructions
 
 1. Course Overview
 	- Getting Started
