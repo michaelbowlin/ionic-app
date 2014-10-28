@@ -211,6 +211,8 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Then inject our Angular service
 			- then to prove that it's working we'll
 				- Create two variables and then console.log(leagues, leagueData)
+	- List control
+		- 
 
 
 

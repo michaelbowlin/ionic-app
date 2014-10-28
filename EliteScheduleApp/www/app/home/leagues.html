@@ -2,9 +2,11 @@
 <ion-view ng-controller="LeaguesCtrl as vm">
 	<ion-content class="has-header">
 		<div class="list">
-			<a class="item" ng-repeat="league in vm.leagues">
+			<a class="item item-icon-right" ng-repeat="league in vm.leagues"
+				ng-click="vm.selectLeague(league.id)">
 				<!-- Data bind to the league name -->
 				{{league.name}}
+				<i class="icon ion-chevron-right icon-accessory"></i>
 			</a>
 		</div>
 	</ion-content>
