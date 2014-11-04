@@ -211,8 +211,43 @@ Editor preferences are available in the [editor config](https://github.com/....e
 		- Then inject our Angular service
 			- then to prove that it's working we'll
 				- Create two variables and then console.log(leagues, leagueData)
-	- List control
-		- 
+					- (see code)
+	- Adding a basic Ionic List
+		- List control
+			- delete the lines of code we used to console.log our data
+			- create a property of leauges off our view model
+				- vm.leagues = leagues;
+			- in leagues.html
+				- Using the "controler as" syntax
+				- put a div with the class of list (see code)
+				- make an a tag with the class of item
+					- indiviual items can be nested div tags or a tags as long as they have a class of item
+				- in that a tag put in an ng-repeat
+					- <a class="item" ng-repeat="league in vm.leagues"></a>
+				- then data bind to the league name
+					- {{ league.name }}
+				- put in a simple icon following the data
+					- <i class="icon ion-chevron-right icon-accessory"></i>
+				- add an ng-click directive
+					- <a class="item item-icon-right" ng-repeat="league in vm.leagues"
+				ng-click="vm.selectLeague(league.id)" ng-click="vm.selectLeague(league.id)">
+				- in leagues-ctrl.js
+					- (now we'll need to create a "selectLeague" method over in our controller)
+					- add in function vm.selectLeague (see code)
+						- (inside there use the state object in order to navigate)
+					- inject the '$state' object in the .module
+					- make sure you add it to the constructor function as well
+						- function LeaguesCtrl($state, eliteApi)
+							- normally we'd have to select the league by querying the data
+								
+
+
+
+
+
+
+
+
 
 
 
