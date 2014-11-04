@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 
-	angular.module('eliteApi').controller('LocationsCtrl', ['eliteApi', [LocationsCtrl]);
+	angular.module('eliteApp').controller('LocationsCtrl', ['eliteApi', LocationsCtrl]);
 
 	function LocationsCtrl(eliteApi){
 		var vm = this;
@@ -12,3 +12,4 @@
 	};
 
 })();
+

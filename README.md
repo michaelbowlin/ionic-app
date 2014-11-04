@@ -231,14 +231,31 @@ Editor preferences are available in the [editor config](https://github.com/....e
 				- add an ng-click directive
 					- <a class="item item-icon-right" ng-repeat="league in vm.leagues"
 				ng-click="vm.selectLeague(league.id)" ng-click="vm.selectLeague(league.id)">
-				- in leagues-ctrl.js
-					- (now we'll need to create a "selectLeague" method over in our controller)
-					- add in function vm.selectLeague (see code)
-						- (inside there use the state object in order to navigate)
-					- inject the '$state' object in the .module
-					- make sure you add it to the constructor function as well
-						- function LeaguesCtrl($state, eliteApi)
-							- normally we'd have to select the league by querying the data
+			- in leagues-ctrl.js
+				- (now we'll need to create a "selectLeague" method over in our controller)
+				- add in function vm.selectLeague (see code)
+					- (inside there use the state object in order to navigate)
+				- inject the '$state' object in the .module
+				- make sure you add it to the constructor function as well
+					- function LeaguesCtrl($state, eliteApi)
+						- normally we'd have to select the league by querying the data
+			- Create locations-ctrl.js in the locations folder
+				- Add your typical controller
+					-	"LocationsCtrl" (see code)
+				- Injecting the eliteApi (see code)
+				- get locaions data
+					- set a property on the view model 
+						- vm.locations = data.locations;
+			- go to locations.html
+				- add ng-controller="Locations as vm"
+				- add a div with a list (not anchor tags just nested divs)
+					- ng-repeat="location in vm.locations" (see code)
+					- {{location.name}}
+			- go to index.html
+				- add the reference to the controller (script etc.)
+	- List dividers for grouped data 	
+
+
 								
 
 
